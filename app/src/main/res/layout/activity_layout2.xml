@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:src="@drawable/antofagasta"
+        style="@style/posicion_img"/>
+
+ <RadioGroup
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     style="@style/posicion_rb">
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chiloe"
+        android:id="@+id/rb_chiloe"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/imageView"
+        android:checked="false" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/viña"
+        android:id="@+id/rb_vina"
+        android:layout_below="@+id/rb_chiloe"
+        android:layout_alignStart="@+id/rb_chiloe"
+        android:checked="false"   />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/antofagasta"
+        android:id="@+id/rb_antofagasta"
+        android:layout_below="@+id/rb_vina"
+        android:layout_alignStart="@+id/rb_vina"
+        android:checked="false" />
+
+ </RadioGroup>
+
+
+</RelativeLayout>

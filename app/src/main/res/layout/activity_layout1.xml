@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+
+<ImageView
+
+    android:id="@+id/imageView"
+    android:src="@drawable/prat"
+    style="@style/posicion_img"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true" />
+
+<RadioGroup
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    style="@style/posicion_rb">
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/prat"
+        android:id="@+id/rb_prat"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/imageView"
+        android:checked="false"
+        />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/piñera"
+        android:id="@+id/rb_pinera"
+        android:layout_below="@+id/rb_prat"
+        android:layout_alignStart="@+id/rb_prat"
+        android:checked="false"
+        />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/massu"
+        android:id="@+id/rb_massu"
+        android:layout_below="@+id/rb_pinera"
+        android:layout_alignStart="@+id/rb_pinera"
+        android:checked="false"
+        />
+
+
+</RadioGroup>
+
+
+
+
+
+</RelativeLayout>

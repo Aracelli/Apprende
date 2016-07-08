@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">"Apprende "</string>
+
+    <string name="play">Play</string>
+
+    <string name="prat"> Arturo Prat</string>
+    <string name="massu">Nicolás Massú</string>
+    <string name="piñera">Sebastián Piñera</string>
+
+    <string name="viña">Viña del Mar</string>
+    <string name="chiloe">Chiloé</string>
+    <string name="antofagasta">Antofagasta</string>
+
+    <string name="euro">El euro</string>
+    <string name="moneda">La moneda</string>
+    <string name="dolar">El dólar</string>
+    <string name="title_activity_main">MainActivity</string>
+
+</resources>
